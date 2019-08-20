@@ -1,0 +1,249 @@
+<!--
+
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobimr/simplefolio/
+  Readme: https://github.com/cobimr/simplefolio/README.md
+  -
+  For business & inquires, contact me -> cobimr@protonmail.com
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Put here your site title -->
+    <title>[Your name here] | Developer</title>
+
+    <!-- Add your custom Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="RGnt, Riku-Juhani Niemelä, rjniemela, javascript, js, typescript, ts, react, react.js"
+    />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Riku-Juhani Niemelä | Developer" />
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+  </head>
+
+  <!-- Follow the HTML instructions below to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Welcome Section **** -->
+    <div id="welcome-section" class="jumbotron">
+      <div class="container">
+        <!-- Opening Text -->
+        <h1 id="opening-text" class="load-hidden">
+          R-J <span class="text-color-main">Niemelä</span>
+          <br />
+          Web Developer.
+        </h1>
+        <!-- /END Opening Text -->
+
+        <!-- Opening Call To Action -->
+        <p id="opening-paragraph" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn More</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Welcome Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <br />
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <!-- Profile image: change path: ./assets/yourpic.jpg -->
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+              <!-- /END Profile image -->
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <!-- 
+                Profile about-text: separate each block of text with 2 <br />
+                I recommend to have no more that 4 block of text
+              -->
+              <p class="about-wrapper__info-text">
+                Technology enthusiast with passion for learning new things.
+                Finally made the decision to dig in to web development after
+                spending most of my life playing around with coding.
+                <br /><br />
+                Currently working mainly with React.JS ecosystem and digging
+                deeper in to the exciting world of front end development.
+                <br /><br />
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="#projects"
+                >
+                  Projects
+                </a>
+                <!-- /END Resume link -->
+              </p>
+              <!-- /END Profile about text  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <!-- Personal projects -->
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+          <!-- Each .row is a project block -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <!-- 1) project title -->
+                <h3 class="project-wrapper__text-title">
+                  Palette Creator Frontend
+                </h3>
+                <!-- 2) project info -->
+                <div>
+                  <p class="mb-4">
+                    A palette creation app, making palette creation and
+                    management just a bit easier. At the moment only serves few
+                    palettes, but the back end is in the works as well.
+                  </p>
+                </div>
+                <!-- 3) project url  -->
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://palette-creator.rjniemela.net"
+                >
+                  See Live
+                </a>
+                <!-- 4) project repository url -->
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-project"
+                  href="https://github.com/RGnt/colors-app"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <!-- 1) project url -->
+                <a href="#!" target="_blank">
+                  <div class="thumbnail rounded">
+                    <!-- 2) project image path  -->
+                    <img class="img-fluid" src="./assets/banner_palette.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project block -->
+        </div>
+        <!-- /END Personal projects -->
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <!-- 1) Contact Call To Action: change if necessary -->
+          <p class="contact-wrapper__text">
+            Connect with me via
+          </p>
+          <br />
+          <!-- 2) Contact mail link: change to your work email & change text if necessary -->
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="https://www.linkedin.com/in/riku-juhani-niemel%C3%A4-3a4078146/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://twitter.com/rjniemela" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a> -->
+          <a href="https://github.com/RGnt" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <!-- /END Social Links -->
+
+        <hr />
+
+        <!-- Please don't remove this text, I spend to much on create this for the community :) -->
+        <p class="footer__text">
+          Simplefolio by
+          <a href="https://github.com/cobimr" target="_blank"
+            >Jacobo Martinez
+          </a>
+        </p>
+        <p class="footer__text">
+          © 2019 - All rights recerved
+          <a href="https://github.com/RGnt" target="_blank"
+            >Riku-Juhani Niemelä
+          </a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/c384233445.js"></script>
+  </body>
+</html>
